@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import Navbar from "./components/navbar.component";
 import Home from "./components/home.component";
+import Trainer from "./components/trainer.component";
+import Client from "./components/client.component";
 import ExercisesList from "./components/exercises-list.component";
 import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
@@ -16,6 +18,8 @@ function App() {
   <Navbar />
   <br/>
   <Route path="/" exact component={Home} />
+  <Route path="/trainer" exact component={Trainer}/>
+  <Route path="/client" exact component={Client}/>
   <Route path="/exercise" exact component={ExercisesList} />
   <Route path="/edit/:id" exact component={EditExercise} />
   <Route path="/create" exact component={CreateExercise} />
