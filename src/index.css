@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+
   }
 
   .hero-text-1 {
@@ -87,6 +87,13 @@
   grid-gap: 1rem;
 }
 
+.weight-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
 
 
 
@@ -126,4 +133,11 @@
   flex-direction: row;
   justify-content: space-around;
 
+}
+
+.navbar-brand {
+  display: inline;
+  float: right;
+  padding: 20px;
+  margin: 10px;
 }

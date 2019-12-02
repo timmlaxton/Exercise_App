@@ -1,22 +1,42 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
- export default class Home extends Component {
-   render() {
-     return(
+class Client extends Component {
+  render () {
+   return (
 
-       <div style={{width: '80%', margin: 'auto'}}>
-        <Grid className="New-user"/>
-         <Cell col={3} />
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1549190179-646f048c6108?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
+       <div className="grid-container">
+       <div className="row-container">
+
+
+       <div className="card-one">
+       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
+         <CardText>
+         Create New User
+         </CardText>
+         <CardActions border>
+         <Button href="/user" colored>New User</Button>
+
+
+         </CardActions>
+
+
+         <CardMenu style={{color: '#fff'}}>
+           <IconButton name="share" />
+         </CardMenu>
+       </Card>
+
+
+
+         <div className="card-two">
+       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center / cover'}} ></CardTitle>
               <CardText>
-              Create New User
+              Create New Routine
               </CardText>
               <CardActions border>
-              <Button href="/user" colored>New User</Button>
-
-
+                <Button href="/create" colored>Choose A Routine</Button>
 
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
@@ -24,52 +44,38 @@ import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, I
               </CardMenu>
             </Card>
 
-
-            <div style={{width: '80%', margin: 'auto'}}>
-             <Grid className="New-log"/>
-              <Cell col={3} />
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1549190179-646f048c6108?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
-            <CardText>
-            Create New log
-            </CardText>
-            <CardActions border>
-            <Button href="/user" colored>New log</Button>
-
-
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          <div style={{width: '80%', margin: 'auto'}}>
-           <Grid className="Custom-regime"/>
-           <Cell col={3} />
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1549190179-646f048c6108?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
-          <CardText>
-          Create New regime
-          </CardText>
-          <CardActions border>
-          <Button href="/user" colored>New regime</Button>
-
-
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-
-
-              </div>
-              </div>
               </div>
 
+            <div className="card-three">
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/2019/05/29/open-water-swimmer_s.jpg?itok=9KoLuX6-) center / cover'}} ></CardTitle>
+             <CardText>
+               Exercise Log
+             </CardText>
+             <CardActions border>
+               <Button href="/exercise" colored>Client Log</Button>
+
+             </CardActions>
+             <CardMenu style={{color: '#fff'}}>
+               <IconButton name="share" />
+             </CardMenu>
+           </Card>
+
+           </div>
+
+
+            </div>
+            </div>
+            </div>
 
 
 
-      )
+       )
     }
   }
+
+
+
+
+
+  export default Client
