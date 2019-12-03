@@ -101,6 +101,57 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
 
           </div>
 
+          <div className="card-five">
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1493690283958-32df2c86326e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
+           <CardText>
+             Exercise Log
+           </CardText>
+           <CardActions border>
+             <Button href="/exercise" colored>Client Log</Button>
+
+           </CardActions>
+           <CardMenu style={{color: '#fff'}}>
+             <IconButton name="share" />
+           </CardMenu>
+         </Card>
+
+           </div>
+
+           <div className="card-five">
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1493690283958-32df2c86326e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
+            <CardText>
+              Exercise Log
+            </CardText>
+            <CardActions border>
+              <Button href="/exercise" colored>Client Log</Button>
+
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+            </div>
+
+            <div className="card-five">
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1493690283958-32df2c86326e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>
+             <CardText>
+               Exercise Log
+             </CardText>
+             <CardActions border>
+               <Button href="/exercise" colored>Client Log</Button>
+
+             </CardActions>
+             <CardMenu style={{color: '#fff'}}>
+               <IconButton name="share" />
+             </CardMenu>
+           </Card>
+
+             </div>
+
         <div className="card-six">
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.unsplash.com/photo-1573572425342-bcebfa8cc3db?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60) center / cover'}} ></CardTitle>

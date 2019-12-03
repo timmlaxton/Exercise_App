@@ -110,8 +110,8 @@
 
 .running-video{
 
-  position: absolute;
-  left: 600px;
+  position: fixed;
+  left: 650px;
   top: 10px;
 }
 
@@ -120,4 +120,24 @@
   left: 150px;
   width: 200px;
   height: 120px;
+}
+
+.running-log-b {
+  position: absolute;
+  left: -100px;
+  bottom: -680px;
+}
+
+.running-log-m {
+  position: absolute;
+  left: 500px;
+  bottom: -0px;
+
+}
+
+.running-log-a {
+  position: absolute;
+  left: 500px;
+  bottom: 0px;
+
 }
