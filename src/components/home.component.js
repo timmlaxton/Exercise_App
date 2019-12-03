@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import background from "../images/background.jpg";
 
 
 
@@ -8,22 +7,31 @@ import background from "../images/background.jpg";
     render() {
   return(
 
-<div class="hero-image-1">
-  <div class="hero-text-1">
-    <h1>I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
+<div className="hero-image-1">
+
+  <div className="hero-text-1">
+    <h2>Welcome to Excer Tracker</h2>
+    <h5>A exercise app that allows you to create your own fitness regime</h5>
+  <div className="button-1">
+    <Button href="/trainer" size="lg">Exercises</Button>
+    <Button href="/client" size="lg">Custom Regime</Button>
+    <Button variant="primary" size="lg" active>
+    Primary button  </Button>
+     <Button variant="dark">Dark</Button>
+
+
+    </div>
+
+    </div>
+
   </div>
 
 
-<div class="hero-image-2">
-  <div class="hero-text-2">
-    <h1>I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
-  </div>
-</div>
-</div>
+
+
+
+
+
 
       )
     }

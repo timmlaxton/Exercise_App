@@ -18,7 +18,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
         Create New User
         </CardText>
         <CardActions border>
-        <Button href="/user" colored>New User</Button>
+        <Button href="/running" colored>New User</Button>
 
 
         </CardActions>
@@ -38,7 +38,9 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
              Create New Routine
              </CardText>
              <CardActions border>
-               <Button href="/create" colored>Choose A Routine</Button>
+               <Button href="/create" colored>Beginner</Button>
+               <Button href="/create" colored>Moderate</Button>
+               <Button href="/create" colored>Adva</Button>
 
              </CardActions>
              <CardMenu style={{color: '#fff'}}>

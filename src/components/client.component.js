@@ -50,7 +50,7 @@ class Client extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/2019/05/29/open-water-swimmer_s.jpg?itok=9KoLuX6-) center / cover'}} ></CardTitle>
              <CardText>
-               Exercise Log
+               Track Your Progress
              </CardText>
              <CardActions border>
                <Button href="/exercise" colored>Client Log</Button>
