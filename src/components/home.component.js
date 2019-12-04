@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 
-
    class Home extends Component {
     render() {
   return(
@@ -11,20 +10,26 @@ import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, I
 
   <div className="hero-text-1">
     <h2>Welcome to Excer Tracker</h2>
-    <h5>A exercise app that allows you to create your own fitness regime</h5>
-  <div className="button-1">
-    <Button href="/trainer" size="lg">Exercises</Button>
-    <Button href="/client" size="lg">Custom Regime</Button>
-    <Button variant="primary" size="lg" active>
-    Primary button  </Button>
-     <Button variant="dark">Dark</Button>
 
 
-    </div>
 
-    </div>
+<div className="button_1" align="center"><a class="button-1" href="/client" target="_blank" rel="nofollow noopener">Create Log</a></div>
 
-  </div>
+<div className="button_2" align="center"><a class="button-2" href="/trainer" target="_blank" rel="nofollow noopener">Choose Workout</a></div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
 
 
 
