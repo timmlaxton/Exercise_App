@@ -15,6 +15,7 @@ import legs from '../images/legs.jpg'
 
 
 
+
 class Running extends Component {
   render () {
    return (
@@ -192,16 +193,17 @@ class Running extends Component {
 
 
 
-    <div className="running-text-2">
-    <h2>Welcome to Excer Tracker</h2>
-    <h5>A exercise app that allows you to create your own fitness regime</h5>
 
 
 
+
+
     </div>
     </div>
     </div>
-    </div>
+
+
+
 
 
 

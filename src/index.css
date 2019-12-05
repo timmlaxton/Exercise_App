@@ -137,14 +137,6 @@ transition: all 0.4s ease 0s;
 }
 
 
-
-.running-text {
-  position: absolute;
-  left: 150px;
-  width: 200px;
-  height: 120px;
-}
-
 .running-log-b {
   display: flex;
   float: left;
@@ -153,7 +145,13 @@ transition: all 0.4s ease 0s;
   left: 180px;
 }
 
-
+.header-text{
+  display: flex;
+  float: center;
+  position: absolute;
+  top: 0px;
+  
+}
 
 
 .running-text{
