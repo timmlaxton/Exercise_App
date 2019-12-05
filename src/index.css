@@ -146,18 +146,142 @@ transition: all 0.4s ease 0s;
 }
 
 .running-log-b {
+  display: flex;
+  float: left;
   position: absolute;
-  left: -100px;
-  bottom: -600px;
+  top: 600px;
+  left: 180px;
 }
 
-.jumbotron-cover-image {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        position: relative;
-        background: #000 url("https://images.unsplash.com/photo-1520774779505-a7782b3fb733?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80") center center;
-        width: 100%;
-        height: 10%;
-        background-size: cover;
-        color: #fff;
+
+
+
+.running-text{
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  top: 370px;
+  width: 600px;
+  height: 6350px;
+  border: 3px solid white;
+  float: right;
+}
+
+.push-ups{
+position: relative;
+left: 100px;
+top: 50px;
+}
+
+.dumbell-row-text{
+  position: relative;
+  bottom: -80px;
+  right: 100px;
+}
+
+.dumbbell-row{
+  position: relative;
+  left: 150px;
+  top: 50px;
+
+}
+
+.tricep-text{
+  position: relative;
+  bottom: -80px;
+  right: 150px;
+}
+
+.tricep{
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.step-ups-text{
+  position: relative;
+  bottom: -80px;
+  right: 150px;
+}
+
+.stepup{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+.squat-text{
+  position: relative;
+  bottom: -80px;
+  right: 180px;
+
+}
+
+.squat{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+.lunges-text{
+  position: relative;
+  bottom: -100px;
+  right: 180px;
+}
+
+.lunges{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+
+.deadlift-text{
+  position: relative;
+  bottom: -100px;
+  right: 180px;
+}
+
+.deadlift{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+
+.superman-text{
+  position: relative;
+  bottom: -100px;
+  right: 180px;
+}
+
+.superman{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+.glute-text{
+  position: relative;
+  bottom: -100px;
+  right: 180px;
+}
+
+.glute{
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+
+
+.legs-text{
+  position: relative;
+  bottom: -100px;
+  right: 180px;
+}
+
+.legs{
+  position: relative;
+  left: 180px;
+  top: 50px;
 }
