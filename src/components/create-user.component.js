@@ -12,8 +12,10 @@ export default class CreateUsers extends Component {
 
     this.state = {
       username: '',
-      email: '',
-
+      description: '',
+      dyration: 0,
+      date: new Date(),
+      users: []
     }
   }
 
@@ -48,7 +50,7 @@ export default class CreateUsers extends Component {
       username: ''
     })
 
-  
+
 }
 
 
