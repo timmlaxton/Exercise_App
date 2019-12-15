@@ -13,7 +13,7 @@ export default class CreateUsers extends Component {
     this.state = {
       username: '',
       description: '',
-      dyration: 0,
+      duration: 0,
       date: new Date(),
       users: []
     }
@@ -25,11 +25,23 @@ export default class CreateUsers extends Component {
     })
   }
 
-  onChangeEmail(e) {
-      this.setState({
-        onChangeEmail: e.target.value
-      })
-}
+  onChangeDescription(e) {
+    this.setState({
+      description: e.target.value
+    })
+  }
+
+  onChangeDuration(e) {
+    this.setState({
+      duration: e.target.value
+    })
+  }
+
+  onChangeDate(date) {
+    this.setState({
+      date: date
+    })
+  }
 
 
 
