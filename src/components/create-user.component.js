@@ -36,7 +36,7 @@ export default class CreateUsers extends Component {
 
     const user = {
       username: this.state.username,
-      email: this.stat.email,
+      email: this.state.email,
     }
 
     axios.post('http://localhost:5000/users/add', user)
@@ -47,7 +47,9 @@ export default class CreateUsers extends Component {
     this.setState({
       username: ''
     })
-  }
+
+  
+}
 
 
 render() {
