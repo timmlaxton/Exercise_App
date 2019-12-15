@@ -44,19 +44,20 @@ export default class CreateUsers extends Component {
   }
 
 
-
   onSubmit(e) {
     e.preventDefault();
 
-    const user = {
+    const exercise = {
       username: this.state.username,
-      email: this.state.email,
+      description: this.state.description,
+      duration: this.state.duration,
+      date: this.state.date,
     }
 
     axios.post('http://localhost:5000/users/add', user)
     .then(res => console.log(res.data));
 
-    console.log(user)
+    console.log(exercise)
 
     this.setState({
       username: ''
