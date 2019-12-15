@@ -6,16 +6,11 @@ export default class CreateUsers extends Component {
     super(props);
 
     this.onChangeUsername = this.onChangeUsername.bind(this);
-    this.onChangeEmail = this.onChangeEmail.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
 
 
     this.state = {
-      username: '',
-      description: '',
-      duration: 0,
-      date: new Date(),
-      users: []
+      username: ''
     }
   }
 
@@ -25,39 +20,22 @@ export default class CreateUsers extends Component {
     })
   }
 
-  onChangeDescription(e) {
-    this.setState({
-      description: e.target.value
-    })
-  }
 
-  onChangeDuration(e) {
-    this.setState({
-      duration: e.target.value
-    })
-  }
-
-  onChangeDate(date) {
-    this.setState({
-      date: date
-    })
-  }
 
 
   onSubmit(e) {
     e.preventDefault();
 
-    const exercise = {
-      username: this.state.username,
-      description: this.state.description,
-      duration: this.state.duration,
-      date: this.state.date,
+    const user = {
+      username: this.state.username
     }
+
+      console.log(user)
 
     axios.post('http://localhost:5000/users/add', user)
     .then(res => console.log(res.data));
 
-    console.log(exercise)
+
 
     this.setState({
       username: ''
@@ -82,17 +60,7 @@ render() {
                   />
                </div>
                <div className="form-group">
-                 <label>Email: </label>
-                 <input  type="text"
-                     required
-                     className="form-control"
-                     value={this.state.email}
-                     onChange={this.onChangeEmail}
-                     />
-               </div>
-               <div className="form-group">
                <input type="submit" value="Create User" className="btn btn-primary" />
-               <input type="submit" value="Add Email" className="btn btn-primary" />
                </div>
                </form>
                </div>
