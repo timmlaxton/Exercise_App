@@ -6,7 +6,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
  class Trainer extends Component {
    render () {
     return (
-  
+
 
 
 
@@ -46,7 +46,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
              Cycling
              </CardText>
              <CardActions border>
-               <Button href="/create" colored>Newbie</Button>
+               <Button href="/cycling" colored>Newbie</Button>
                <Button href="/create" colored>Moderate</Button>
                <Button href="/create" colored>Advanced</Button>
 
@@ -65,7 +65,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
               Swimming
             </CardText>
             <CardActions border>
-            <Button href="/running" colored>Newbie</Button>
+            <Button href="/swimming" colored>Newbie</Button>
             <Button href="/create" colored>Moderate</Button>
             <Button href="/create" colored>Advanced</Button>
 
@@ -84,7 +84,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
              Climbing
            </CardText>
            <CardActions border>
-           <Button href="/running" colored>Newbie</Button>
+           <Button href="/climbing" colored>Newbie</Button>
            <Button href="/create" colored>Moderate</Button>
            <Button href="/create" colored>Advanced</Button>
 
@@ -104,7 +104,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
             Skipping
           </CardText>
           <CardActions border>
-          <Button href="/running" colored>Newbie</Button>
+          <Button href="/skipping" colored>Newbie</Button>
           <Button href="/create" colored>Moderate</Button>
           <Button href="/create" colored>Advanced</Button>
           </CardActions>
@@ -123,7 +123,7 @@ import  { Grid, Row, Cell, Card, CardTitle, CardText, CardActions, Button, CardM
              Weights
            </CardText>
            <CardActions border>
-           <Button href="/running" colored>Newbie</Button>
+           <Button href="/weights" colored>Newbie</Button>
            <Button href="/create" colored>Moderate</Button>
            <Button href="/create" colored>Advanced</Button>
 
