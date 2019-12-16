@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { DataTable, TableHeader } from 'react-mdl';
 import {Jumbotron, Button, Container} from 'reactstrap';
-import pushups from '../images/pushups.jpg'
+import pushup from '../images/puss.gif'
 import dumbbell from '../images/dumbbellroow.jpg'
 import tricep from '../images/triceps.jpg'
 import stepup from '../images/stepups.jpg'
@@ -20,20 +20,14 @@ class Running extends Component {
   render () {
    return (
 
-     <div class="container">
+
   <div class="jumbotron jumbotron-cover-image">
     <div class="container">
         <h1>Hello, world!</h1>
 
 
-
-
-
-
-
-
     <div className="running-text">
-    <h2>  </h2>
+    <h2>dfghj  </h2>
     <p>We get it: You like to run, not spend hours in a gym. But strength training, especially if you’re just getting into running regularly, will help you run your best and build up miles without the risk of injury.
     These exercises for beginners use your own body weight to build strong, powerful, and injury-resistant muscles to power up hills, sprint across the finish, and maintain good running form mile after mile. Best part:
     These exercises for beginners require no equipment, so you can do them anytime, anywhere. And yes, bodyweight exercises can help you build muscle.
@@ -43,12 +37,12 @@ class Running extends Component {
 
     <div className="running-text-1">
     <p>Benefits: Strengthens the chest, shoulders and arms to improve posture and arm drive while running.</p>
-<p>● Lay face down with your hands on the floor either side of your chest. Your toes should be tucked under.</p>
+<p>●  Lay face down with your hands on the floor either side of your chest. Your toes should be tucked under.</p>
 <p>●	Press down into your hands, raising your body off the floor. Keep your body straight and avoid stretching your neck.</p>
 <p>●	When your arms are almost fully extended (don’t lock your elbows), lower your body back down, almost to the floor, and repeat.</p>
 
 <div className="push-ups">
-<img src={pushups}  alt="push ups" />
+<img src={pushup}  alt="push ups" />
 
 
 
@@ -74,9 +68,9 @@ class Running extends Component {
 <p>Benefits: Works all major muscle groups in the legs, improving running power.</p>
 <p>●	Stand in front of a bench or box (ensure it’s strong enough to hold your weight).</p>
 <p>●	Place one foot onto the bench and push off your rear leg to step up, keeping your body tall and your knee over your ankle on your supporting leg.</p>
-<p>Think about bringing your hips forwards and up rather than pulling forwards with your knees.</p>
+<p>   Think about bringing your hips forwards and up rather than pulling forwards with your knees.</p>
 <p>●	Bring your trail leg up to a high knee position without it touching the bench. Then lower it back down to the floor.</p>
-<p>● To increase difficulty, hold dumbbells in each hand.</p>
+<p>●  To increase difficulty, hold dumbbells in each hand.</p>
 
 <div className="stepup">
 <img src={stepup}  alt="stepup roll" />
