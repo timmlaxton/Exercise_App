@@ -31,32 +31,7 @@ class Running extends Component {
 
 
 
-    <div className="running-log-b">
 
-    <DataTable
-    selectable
-    shadow={5} style={{minWidth: '450', margin: 'auto'}}
-    rowKeyColumn="id"
-    rows={[
-        {id: 1001, exercise: 'Press-ups', reps: 25, sets: 2},
-        {id: 1002, exercise: 'Dumbell', reps: 12, sets: 2},
-        {id: 1003, exercise: 'TricepDips', reps: 12, sets: 2},
-        {id: 1004, exercise: 'Step-ups', reps: 10, sets: 2},
-        {id: 1005, exercise: 'Squats', reps: 15, sets: 2},
-        {id: 1006, exercise: 'Walking Lunges', reps: 8, sets: 2},
-        {id: 1007, exercise: 'Single-leg deadlift', reps: 10, sets: 2},
-        {id: 1008, exercise: 'Superman/ back extension', reps: 8},
-        {id: 1009, exercise: 'Glute bridge', reps: 15, sets: 2},
-        {id: 10010, exercise: 'Leg Raises', reps: 10}
-
-    ]}
->
-    <TableHeader name="exercise">Exercise</TableHeader>
-    <TableHeader numeric name="reps" tooltip="Number of materials">Reps</TableHeader>
-    <TableHeader numeric name="sets" tooltip="Price pet unit">Sets</TableHeader>
-    </DataTable>
-
-    </div>
     <div className="running-text">
     <h2>  </h2>
     <p>We get it: You like to run, not spend hours in a gym. But strength training, especially if you’re just getting into running regularly, will help you run your best and build up miles without the risk of injury.
@@ -200,7 +175,7 @@ class Running extends Component {
 
     </div>
     </div>
-    </div>
+    // </div>
 
 
 

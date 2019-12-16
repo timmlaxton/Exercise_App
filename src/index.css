@@ -150,25 +150,26 @@ transition: all 0.4s ease 0s;
   float: center;
   position: absolute;
   top: 0px;
-  
+
 }
 
 
 .running-text{
+
   position: relative;
   bottom: 300px;
-  left: 100px;
-  top: 370px;
-  width: 600px;
-  height: 6350px;
-  border: 3px solid white;
+  right: -100px;
+  top: 150px;
+  width: 1200px;
+  height: 550px;
+  border: 10px solid black;
   float: right;
 }
 
 .push-ups{
 position: relative;
-left: 100px;
-top: 50px;
+left: 780px;
+top: -250px;
 }
 
 .dumbell-row-text{
