@@ -3,7 +3,7 @@ import { DataTable, TableHeader } from 'react-mdl';
 import {Jumbotron, Button, Container} from 'reactstrap';
 import pushup from '../images/puss.gif'
 import dumbbell from '../images/dumb.gif'
-import tricep from '../images/triceps.jpg'
+import tricep from '../images/tricep.gif'
 import stepup from '../images/stepups.jpg'
 import squat from '../images/squat.jpg'
 import lunges from '../images/lunges.jpg'

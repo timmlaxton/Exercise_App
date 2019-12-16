@@ -181,19 +181,19 @@ top: 0px;
 .dumbbell-row{
   position: relative;
   left: -180px;
-  top: 50px;
+  top: -20px;
 
 }
 
 .tricep-text{
   position: relative;
   bottom: -80px;
-  right: 150px;
+  right: -200px;
 }
 
 .tricep{
   position: relative;
-  left: 150px;
+  left: -50px;
   top: 50px;
 }
 
