@@ -10,6 +10,7 @@ import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, I
 
   <div className="hero-text-1">
     <h2>Welcome to Excer Tracker</h2>
+    <h5>A exercise app that allows you to create your own fitness regime</h5>
 
 
 
