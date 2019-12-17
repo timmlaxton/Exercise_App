@@ -185,22 +185,12 @@ top: 0px;
 
 }
 
-.tricep-text{
-  position: relative;
-  bottom: -80px;
-  right: -200px;
-}
 
-.tricep{
-  position: relative;
-  left: -100px;
-  top: 50px;
-}
 
 .step-ups-text{
   position: relative;
   bottom: -80px;
-  right: -50px;
+  right: -180px;
 }
 
 .stepup{
@@ -222,53 +212,31 @@ top: 0px;
   top: 50px;
 }
 
-.lunges-text{
-  position: relative;
-  bottom: -100px;
-  right: -200px;
-}
 
-.lunges{
-  position: relative;
-  left: 180px;
-  top: 50px;
-}
 
 
 .deadlift-text{
   position: relative;
   bottom: -100px;
-  right: 180px;
+  right: -200px;
 }
 
 .deadlift{
   position: relative;
-  left: 180px;
+  left: -160px;
   top: 50px;
 }
 
-
-.superman-text{
-  position: relative;
-  bottom: -100px;
-  right: 180px;
-}
-
-.superman{
-  position: relative;
-  left: 180px;
-  top: 50px;
-}
 
 .glute-text{
   position: relative;
   bottom: -100px;
-  right: 180px;
+  right: -180px;
 }
 
 .glute{
   position: relative;
-  left: 180px;
+  left: -50px;
   top: 50px;
 }
 
@@ -276,11 +244,11 @@ top: 0px;
 .legs-text{
   position: relative;
   bottom: -100px;
-  right: 180px;
+  right: -80px;
 }
 
 .legs{
   position: relative;
-  left: 180px;
-  top: 50px;
+  left: 0px;
+  top: -0px;
 }

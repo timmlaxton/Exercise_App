@@ -7,10 +7,10 @@ import tricep from '../images/tricep.gif'
 import stepup from '../images/stepups.gif'
 import squat from '../images/squat.gif'
 import lunges from '../images/lunges.jpg'
-import deadlift from '../images/deadlift.jpg'
+import deadlift from '../images/singlelift.gif'
 import superman from '../images/superman.jpg'
-import glute from '../images/glute.jpg'
-import legs from '../images/legs.jpg'
+import glute from '../images/glute.gif'
+import legs from '../images/leg.gif'
 
 
 
@@ -56,13 +56,7 @@ class Running extends Component {
 <img src={dumbbell}  alt="dumbbell roll" />
 
 
-<div className="tricep-text">
-<p>Benefits: Strengthens the arms and shoulders to help you maintain an upright running posture.</p>
-<p>●	Sit with the heel of your hands on the edge of a bench with your fingers over the edge.</p>
-<p>●	Take the weight off your body with your arms and, bending at the elbows, lower yourself down. Push back up with your arms (avoid using your legs to lift yourself) and repeat.</p>
 
-<div className="tricep">
-<img src={tricep}  alt="tricep roll" />
 
 <div className="step-ups-text">
 <p>Benefits: Works all major muscle groups in the legs, improving running power.</p>
@@ -86,15 +80,7 @@ class Running extends Component {
 <div className="squat">
 <img src={squat}  alt="squat" />
 
-<div className="lunges-text">
-<p>●	Stand with your feet shoulder-width apart.</p>
-<p>●	Take a big step forward with one leg and lower your body and rear knee towards the floor, making sure it doesn't make contact.</p>
-<p>●	Keep your front knee over your ankle and your body upright.</p>
-<p>●	Push off your rear leg and step your front leg backwards to meet your rear leg.</p>
-<p>● Repeat alternating your lead leg.</p>
 
-<div className="lunges">
-<img src={lunges}  alt="lunges" />
 
 <div className="deadlift-text">
 <p>●	Stand tall with a dumbbell or kettlebell in your right hand.</p>
@@ -106,14 +92,6 @@ class Running extends Component {
 <div className="deadlift">
 <img src={deadlift}  alt="deadlift" />
 
-<div className="superman-text">
-<p>Benefits: Helps strengthen the middle and upper back for a more stable, upright running posture and improved running efficiency.</p>
-<p>●	Lay face down with your hands by your ears, palms facing down.</p>
-<p>●	Lift your chest and shoulders off the floor and squeeze your shoulder blades together. Keep looking at the floor to avoid stretching your neck.</p>
-<p>●	Lower to the start position and repeat.</p>
-
-<div className="superman">
-<img src={superman} alt="superman" />
 
 <div className="glute-text">
 <p>Benefits: Targets the glutes for improved activation when you run.</p>
@@ -154,10 +132,6 @@ class Running extends Component {
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
 
 
 
@@ -167,8 +141,9 @@ class Running extends Component {
 
 
 
-    </div>
-    </div>
+
+
+
     // </div>
 
 
